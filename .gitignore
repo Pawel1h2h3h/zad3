@@ -1,0 +1,21 @@
+# Ignoruj katalog build (domyślny katalog dla plików budowania CMake)
+build/
+
+# Ignoruj katalogi z plikami vscode
+.vscode/
+
+# Ignoruj pliki tymczasowe CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+CTestTestfile.cmake
+install_manifest.txt
+
+# Ignoruj pliki wygenerowane przez ctest
+Testing/
+
+# Ignoruj pliki konfiguracji dla projektów
+*.cbp
+*.vcxproj*
+*.sln
+*.user
